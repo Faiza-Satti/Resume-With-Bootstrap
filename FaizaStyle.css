@@ -1,0 +1,117 @@
+:root{
+    --rSection:rgb(83, 55, 55);
+    --lSection: black;
+    --linkColor:rgb(243, 13, 13);
+    --fontColor:wheat;
+}
+
+.light-mode {
+    --lSection:#E5E8E8;
+    --rSection:#F8F9F9;
+    --linkColor:brown;
+    --fontColor: black;
+}
+
+body{
+    background-color: rgb(207, 192, 177);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 20px;
+}
+.CvContainer{
+    margin:100px 80px;
+    background-color: rgb(207, 192, 177);
+    height: 1190px;
+}
+
+.section_left{
+    background-color: var(--lSection);
+    color: var(--fontColor);
+    -webkit-box-shadow: 2px 7px 13px 0px #000000; 
+    box-shadow: 2px 7px 13px 0px #474040;
+}
+
+.section_left img{
+    border-radius: 50%;
+    border: 1px solid wheat;
+}
+
+.section_left .ProfileContainer{
+
+    padding: 30px 15px 10px 15px;
+    text-align: center;
+    display: block;
+}
+
+.AboutMe p{
+    padding: 10px 15px 0px 15px;
+}
+
+ul{
+    margin:20px 55px;
+    padding:5px;
+}
+
+ul li{
+    list-style: none;
+    
+}
+.info_heading{
+    padding:3px 2px 1px 0px;
+    margin:0px;
+}
+
+.info{
+    padding:1px 1px 3px 0px;
+    margin-top: 1px;
+    font-size: 1rem;
+}
+
+hr.new5 {
+    border: 7px solid black;
+    border-radius: 5px;
+  }
+
+h2{
+    margin:20px 20px;
+    padding: 10px 2px 2px 10px;
+}
+
+.Skills table{
+    padding: 10px 2px 2px 20px;
+    font-weight: bold;
+    margin:20px 55px;
+}
+
+td{
+    padding-top: 9px;
+}
+
+.section_right{
+    background-color: var(--rSection);
+    color:var(--fontColor);
+    -webkit-box-shadow: 2px 7px 13px 0px #000000; 
+    box-shadow: 2px 7px 13px 0px #474040;
+}
+
+button{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.Experience{
+    padding-bottom: 39px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--linkColor);
+}
+
+.Contact {
+    display: flex;
+    align-items: stretch;
+    margin: 7px;
+    text-align: center;
+
+}
